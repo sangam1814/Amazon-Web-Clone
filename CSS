@@ -1,0 +1,240 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/** Navbar **/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    background: url(/Images/amazon_logo.png) no-repeat center/cover;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 15px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+
+.nav-search:hover {
+    border: 2px solid #febd68;
+}
+
+.search-select, .search-input {
+    border: none;
+    outline: none;
+}
+
+.search-select {
+    width: 70px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 0 10px;
+    font-size: 0.9rem;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    background-color: #febd68;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+}
+
+.nav-cart i {
+    font-size: 1.6rem;
+}
+
+/** Bottom Panel **/
+.bottom-panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+/** Hero Section **/
+.hero-section {
+    background: url('/Images/hero_image.jpg') no-repeat center/cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    height: 40px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/** Shop Section **/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    padding-bottom: 20px;
+}
+
+.box {
+    height: 410px;
+    width: 23%;
+    background-color: white;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.box-img {
+    height: 300px;
+    border-radius: 10px;
+    margin: 1rem 0;
+    background-size: cover;
+}
+
+.box-content p {
+    color: #007185;
+    font-size: 14px;
+}
+
+/** Footer **/
+.foot-panel1 {
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    height: 400px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel3 {
+    height: 70px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid gray;
+}
+
+.foot-panel3 .logo {
+    height: 50px;
+    width: 100px;
+    background: url(/Images/amazon_logo.png) no-repeat center/cover;
+}
+
+.foot-panel4 {
+    height: 70px;
+    background-color: #131A22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pages a {
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
